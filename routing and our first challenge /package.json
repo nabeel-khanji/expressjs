@@ -1,0 +1,15 @@
+{
+    "name": "routing-and-our-first-challenge-",
+    "version": "1.0.0",
+    "description": "",
+    "main": "nav.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Nabeel",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.0"
+    }
+}
