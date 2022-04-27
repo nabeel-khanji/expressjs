@@ -8,8 +8,8 @@ const __dirname = dirname(fileURLToPath(
     import.meta.url));
 // console.log(__dirname);
 
-// const staticPath = path.join(__dirname, '/public')
-// console.log(staticPath);
+const staticPath = path.join(__dirname, '/public')
+console.log(staticPath);
 // set view engine 
 app.set('view engine', 'hbs');
 // template engine route
