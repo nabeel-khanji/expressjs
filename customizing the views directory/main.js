@@ -11,4 +11,5 @@ const port = 8000;
 app.set('view engine', 'hbs');
 app.set('views', setFilederName);
 app.get('/', (req, res) => { res.render('index', { name: "Nabeel" }) });
+app.get('/about', (req, res) => { res.render('about', { name: "Nabeel" }) });
 app.listen(port, () => { console.log(`listening to the port ${port}`); });
