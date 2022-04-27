@@ -13,7 +13,7 @@ const __dirname = dirname(fileURLToPath(
 // set view engine 
 app.set('view engine', 'hbs');
 // template engine route
-app.get('/', (req, res) => { res.render('index', { name: "Nabeel" }) });
+app.get('/', (req, res) => { res.render('index', { name: "Cubix" }) });
 
 // app.use(express.static(staticPath));
 app.listen(port, () => { console.log(`listening to port ${port}`); })
