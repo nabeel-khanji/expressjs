@@ -1,0 +1,15 @@
+a {
+    color: rgb(227, 122, 122) !important;
+}
+
+body {
+    /* position: absolute; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    /* position: relative; */
+    margin-top: auto;
+}
